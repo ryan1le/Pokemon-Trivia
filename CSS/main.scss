@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
+body {
+    background: #F8F8F8;
+    margin: 0;
+    font-family: 'Goldman';
+}
+
+.navbar {
+
+    background: #F02323;
+    padding: 1em;
+
+    nav {
+        display: none;
+    }
+    
+    .container {
+        display: flex;
+        place-content: space-between;
+        
+        #pika-icon {
+            width: 3em;
+            height: 3em;
+        }
+
+        .logo {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            font-size: 2.5em;
+            
+            span {
+                color: #CCFF00;
+            }
+        }
+        
+    }
+
+    .mobile-menu {
+        cursor: pointer;
+    }
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 5em 2em;
+}
+
+section.welcome{
+    .welcome-img {
+        display: none;
+    }
+    .mobile-welcome-img {
+        width: 90%;
+        margin-top: 3em;
+    }
+    text-align: center;
+
+    .left-col {
+        .subhead {
+            text-transform: uppercase;
+            font-size: 1.2em;
+            color: #F02323;
+            letter-spacing: .3em;
+        }
+        h1 {
+            font-size: 2.8em;
+            margin: 0;
+        }
+        .subtext {
+            font-size: 1.2em;
+            color: #4c4c4c;
+            margin-top: 0;
+        }
+    }
+}
+
+section.features-section {
+    background: #F02323;
+    color: #4c4c4c;
+
+    blockquote {
+        margin-bottom: 2em;
+    }
+    
+    li {
+        background: #f85b5b;
+        text-align: center;
+        padding: 2em 1em;
+        width: 80%;
+        margin: 0 auto 5em auto;
+        border-radius: 1.2em;
+        
+        img {
+            width: 30%;
+            border: 8px solid #f85b5b;
+            border-radius: 80%;
+            margin-top: -5.5em;
+
+        }
+        
+        .Random-cta {
+            color: #403aef;
+            text-decoration: none;
+            border: 3px solid #403aef;
+            font-weight: bold;
+            border-radius: 5em;
+            margin: 5em;
+            padding: .6em 1.3em;
+            font-size: 1.2em;
+            
+            &:hover {
+                background: #403aef;
+                color: #F02323;
+            }
+        }
+
+        .Generation-cta {
+            color: #403aef;
+            text-decoration: none;
+            border: 3px solid #403aef;
+            font-weight: bold;
+            border-radius: 5em;
+            margin: 5em;
+            padding: .6em 1.3em;
+            font-size: 1.2em;
+
+            &:hover {
+                background: #403aef;
+                color: #F02323;
+            }
+        }
+
+        .Legendary-cta {
+            color: #403aef;
+            text-decoration: none;
+            border: 3px solid #403aef;
+            font-weight: bold;
+            border-radius: 5em;
+            margin: 5em;
+            padding: .6em 1.3em;
+            font-size: 1.2em;
+            
+            &:hover {
+                background: #403aef;
+                color: #F02323;
+            }
+        }
+    }
+}

@@ -1,1 +1,157 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap");
+body {
+  background: #F8F8F8;
+  margin: 0;
+  font-family: 'Goldman';
+}
+
+.navbar {
+  background: #F02323;
+  padding: 1em;
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .container #pika-icon {
+  width: 3em;
+  height: 3em;
+}
+
+.navbar .container .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 2.5em;
+}
+
+.navbar .container .logo span {
+  color: #CCFF00;
+}
+
+.navbar .mobile-menu {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+section.welcome {
+  text-align: center;
+}
+
+section.welcome .welcome-img {
+  display: none;
+}
+
+section.welcome .mobile-welcome-img {
+  width: 90%;
+  margin-top: 3em;
+}
+
+section.welcome .left-col .subhead {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  color: #F02323;
+  letter-spacing: .3em;
+}
+
+section.welcome .left-col h1 {
+  font-size: 2.8em;
+  margin: 0;
+}
+
+section.welcome .left-col .subtext {
+  font-size: 1.2em;
+  color: #4c4c4c;
+  margin-top: 0;
+}
+
+section.features-section {
+  background: #F02323;
+  color: #4c4c4c;
+}
+
+section.features-section blockquote {
+  margin-bottom: 2em;
+}
+
+section.features-section li {
+  background: #f85b5b;
+  text-align: center;
+  padding: 2em 1em;
+  width: 80%;
+  margin: 0 auto 5em auto;
+  border-radius: 1.2em;
+}
+
+section.features-section li img {
+  width: 30%;
+  border: 8px solid #f85b5b;
+  border-radius: 80%;
+  margin-top: -5.5em;
+}
+
+section.features-section li .Random-cta {
+  color: #403aef;
+  text-decoration: none;
+  border: 3px solid #403aef;
+  font-weight: bold;
+  border-radius: 5em;
+  margin: 5em;
+  padding: .6em 1.3em;
+  font-size: 1.2em;
+}
+
+section.features-section li .Random-cta:hover {
+  background: #403aef;
+  color: #F02323;
+}
+
+section.features-section li .Generation-cta {
+  color: #403aef;
+  text-decoration: none;
+  border: 3px solid #403aef;
+  font-weight: bold;
+  border-radius: 5em;
+  margin: 5em;
+  padding: .6em 1.3em;
+  font-size: 1.2em;
+}
+
+section.features-section li .Generation-cta:hover {
+  background: #403aef;
+  color: #F02323;
+}
+
+section.features-section li .Legendary-cta {
+  color: #403aef;
+  text-decoration: none;
+  border: 3px solid #403aef;
+  font-weight: bold;
+  border-radius: 5em;
+  margin: 5em;
+  padding: .6em 1.3em;
+  font-size: 1.2em;
+}
+
+section.features-section li .Legendary-cta:hover {
+  background: #403aef;
+  color: #F02323;
+}
+/*# sourceMappingURL=main.css.map */
