@@ -19,28 +19,76 @@ body {
         display: flex;
         place-content: space-between;
         
-        #pika-icon {
-            width: 3em;
-            height: 3em;
-        }
-
-        .logo {
-            text-decoration: none;
-            font-weight: bold;
-            color: white;
-            font-size: 2.5em;
-            
-            span {
-                color: #CCFF00;
+        .top-nav {
+            margin: 0;
+            li {
+                display: inline;
             }
-        }
-        
+
+            #pika-icon {
+                width: 3em;
+                height: 3em;
+            }
+    
+            .logo-name {
+                text-decoration: none;
+                font-weight: bold;
+                color: white;
+                font-size: 2.3em;
+                
+    
+                span {
+                    color: #CCFF00;
+                }
+            }   
+        }   
     }
 
-    .mobile-menu {
+    .mobile-menu-btn {
         cursor: pointer;
     }
 
+}
+
+nav.mobile-menu {
+    display: block;
+}
+
+nav {
+    position: fixed;
+    z-index: 999;
+    width: 60%;
+    right: 0;
+    top: 0;
+    background: #F02323;
+    height: 100vh;
+    padding: 1em;
+
+    .primary-menu {
+        margin-top: 5em;
+    }
+
+    li {
+        
+        a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: .5em;
+            font-size: 1.5em;
+            text-align: right;
+
+            &:hover {
+                font-weight: bold;
+            }
+        }
+    }
+
+    .mobile-exit {
+        float: right;
+        margin: .5em;
+        cursor: pointer;
+    }
 }
 
 ul {
@@ -112,7 +160,6 @@ section.features-section {
             border: 3px solid #403aef;
             font-weight: bold;
             border-radius: 5em;
-            margin: 5em;
             padding: .6em 1.3em;
             font-size: 1.2em;
             
@@ -128,7 +175,6 @@ section.features-section {
             border: 3px solid #403aef;
             font-weight: bold;
             border-radius: 5em;
-            margin: 5em;
             padding: .6em 1.3em;
             font-size: 1.2em;
 
@@ -144,7 +190,6 @@ section.features-section {
             border: 3px solid #403aef;
             font-weight: bold;
             border-radius: 5em;
-            margin: 5em;
             padding: .6em 1.3em;
             font-size: 1.2em;
             
@@ -154,4 +199,140 @@ section.features-section {
             }
         }
     }
+}
+
+@media only screen and (min-width: 855px){
+
+    .mobile-menu-btn, .mobile-exit {
+        display: none;
+    }
+
+    .navbar .container {
+        display: grid;
+        grid-template-columns: auto auto;
+
+    }
+
+    .navbar nav {
+        display: flex;
+        justify-content: space-between;
+        background: none;
+        position: unset;
+        height: auto;
+        width: 100%;
+        padding: 0;
+
+        ul.primary-menu {
+            display: flex;
+            margin: 0;
+            margin-top: 1.4em;
+        }
+
+        a {
+            color: rgb(4, 0, 255);
+            font-size: 1.1em;
+            padding: .1em, 1em;
+        }
+
+        li.current a {
+            font-weight: bold;
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1080px){
+
+    section {
+        padding: 10em 4em;
+    }
+
+    .navbar nav {
+        ul.primary-menu {
+            margin-top: 1.1em;
+        }
+
+        a {
+            color: rgb(4, 0, 255);
+            font-size: 1.4em;
+            padding: .1em, 1em;
+        }
+    }
+
+    .welcome .container {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+
+        .left-col {
+
+            h1 {
+                font-size: 3em;
+                width: 90%;
+            }
+        }
+
+        .mobile-welcome-img {
+            display: none;
+        }
+
+        .welcome-img {
+            display: flex;
+            width: 50%;
+        }
+    }
+}
+
+@media only screen and (min-width: 1535px){
+
+    .navbar nav {
+        ul.primary-menu {
+            margin-top: .1em;
+        }
+
+        a {
+            color: rgb(4, 0, 255);
+            font-size: 2em;
+            padding: .1em, 1em;
+        }
+    }
+
+    .welcome .container {
+        
+        .left-col {
+
+            .subhead {
+                font-size: 2em;
+            }
+
+            h1 {
+                font-size: 5em;
+                width: 90%;
+            }
+
+            .subtext {
+                font-size: 1.5em;
+            }
+
+        }
+
+        .welcome-img {
+            display: flex;
+            width: 60%;
+        }
+    }    
+
+    .features-section ul {
+        display: flex;
+
+        blockquote {
+            font-size: 1.5em;
+        }
+        
+        li {
+            margin: 0 1em;
+        }
+
+    }
+
 }

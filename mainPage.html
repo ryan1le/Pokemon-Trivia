@@ -6,23 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokemon Trivia</title>
     <link rel="stylesheet" href="CSS/main.css" />
+    <link rel="icon" href="images/favicon.png" />
   </head>
   <body>
     <div class="navbar">
       <div class="container">
-        <img id="pika-icon" src="images/Pikachu-Icon.png" alt="Pikachu Icon" />
-        <a class="logo" href="#">Pokemon <span>Trivia</span></a>
+        <ul class="top-nav">
+          <li>
+            <a href="#"
+              ><img
+                id="pika-icon"
+                src="images/Pikachu-Icon.png"
+                alt="Pikachu Icon"
+            /></a>
+          </li>
+          <li>
+            <a class="logo-name" href="#">Pokemon <span>Trivia</span></a>
+          </li>
+        </ul>
 
         <img
           id="mobile-cta"
-          class="mobile-menu"
+          class="mobile-menu-btn"
           src="images/menu.svg"
           alt="Open Navigation"
         />
 
         <nav>
-          <img src="images/exit.svg" alt="Close Navigation" />
-          <ul>
+          <img
+            id="mobile-exit-btn"
+            class="mobile-exit"
+            src="images/exit.svg"
+            alt="Close Navigation"
+          />
+          <ul class="primary-menu">
             <li class="current"><a href="#">Home</a></li>
             <li><a href="#">Random</a></li>
             <li><a href="#">Generation</a></li>
@@ -86,5 +103,19 @@
         </ul>
       </div>
     </section>
+
+    <script>
+      const mobileBtn = document.getElementById("mobile-cta"),
+        nav = document.querySelector("nav"),
+        mobileExit = document.getElementById("mobile-exit-btn");
+
+      mobileBtn.addEventListener("click", () => {
+        nav.classList.add("mobile-menu");
+      });
+
+      mobileExit.addEventListener("click", () => {
+        nav.classList.remove("mobile-menu");
+      });
+    </script>
   </body>
 </html>
