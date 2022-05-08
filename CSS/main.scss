@@ -134,8 +134,18 @@ section.features-section {
     background: #F02323;
     color: #4c4c4c;
 
-    blockquote {
-        margin-bottom: 2em;
+    .random-text {
+        margin-top: 1.4em;
+        margin-bottom: 3.8em;
+    }
+    
+    .gen-text {
+        margin-bottom: 1.5em;
+    }
+
+    .legend-text {
+        margin-top: .7em;
+        margin-bottom: 2.7em;
     }
     
     li {
@@ -155,46 +165,46 @@ section.features-section {
         }
         
         .Random-cta {
-            color: #403aef;
+            color: white;
             text-decoration: none;
-            border: 3px solid #403aef;
+            border: 3px solid white;
             font-weight: bold;
             border-radius: 5em;
             padding: .6em 1.3em;
             font-size: 1.2em;
             
             &:hover {
-                background: #403aef;
+                background: white;
                 color: #F02323;
             }
         }
 
         .Generation-cta {
-            color: #403aef;
+            color: white;
             text-decoration: none;
-            border: 3px solid #403aef;
+            border: 3px solid white;
             font-weight: bold;
             border-radius: 5em;
             padding: .6em 1.3em;
             font-size: 1.2em;
 
             &:hover {
-                background: #403aef;
+                background: white;
                 color: #F02323;
             }
         }
 
         .Legendary-cta {
-            color: #403aef;
+            color: white;
             text-decoration: none;
-            border: 3px solid #403aef;
+            border: 3px solid white;
             font-weight: bold;
             border-radius: 5em;
             padding: .6em 1.3em;
             font-size: 1.2em;
             
             &:hover {
-                background: #403aef;
+                background: white;
                 color: #F02323;
             }
         }
@@ -229,7 +239,7 @@ section.features-section {
         }
 
         a {
-            color: rgb(4, 0, 255);
+            color: white;
             font-size: 1.1em;
             padding: .1em, 1em;
         }
@@ -253,7 +263,7 @@ section.features-section {
         }
 
         a {
-            color: rgb(4, 0, 255);
+            color: white;
             font-size: 1.4em;
             padding: .1em, 1em;
         }
@@ -291,7 +301,7 @@ section.features-section {
         }
 
         a {
-            color: rgb(4, 0, 255);
+            color: white;
             font-size: 2em;
             padding: .1em, 1em;
         }

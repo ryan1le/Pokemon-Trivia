@@ -133,8 +133,18 @@ section.features-section {
   color: #4c4c4c;
 }
 
-section.features-section blockquote {
-  margin-bottom: 2em;
+section.features-section .random-text {
+  margin-top: 1.4em;
+  margin-bottom: 3.8em;
+}
+
+section.features-section .gen-text {
+  margin-bottom: 1.5em;
+}
+
+section.features-section .legend-text {
+  margin-top: .7em;
+  margin-bottom: 2.7em;
 }
 
 section.features-section li {
@@ -154,9 +164,9 @@ section.features-section li img {
 }
 
 section.features-section li .Random-cta {
-  color: #403aef;
+  color: white;
   text-decoration: none;
-  border: 3px solid #403aef;
+  border: 3px solid white;
   font-weight: bold;
   border-radius: 5em;
   padding: .6em 1.3em;
@@ -164,14 +174,14 @@ section.features-section li .Random-cta {
 }
 
 section.features-section li .Random-cta:hover {
-  background: #403aef;
+  background: white;
   color: #F02323;
 }
 
 section.features-section li .Generation-cta {
-  color: #403aef;
+  color: white;
   text-decoration: none;
-  border: 3px solid #403aef;
+  border: 3px solid white;
   font-weight: bold;
   border-radius: 5em;
   padding: .6em 1.3em;
@@ -179,14 +189,14 @@ section.features-section li .Generation-cta {
 }
 
 section.features-section li .Generation-cta:hover {
-  background: #403aef;
+  background: white;
   color: #F02323;
 }
 
 section.features-section li .Legendary-cta {
-  color: #403aef;
+  color: white;
   text-decoration: none;
-  border: 3px solid #403aef;
+  border: 3px solid white;
   font-weight: bold;
   border-radius: 5em;
   padding: .6em 1.3em;
@@ -194,7 +204,7 @@ section.features-section li .Legendary-cta {
 }
 
 section.features-section li .Legendary-cta:hover {
-  background: #403aef;
+  background: white;
   color: #F02323;
 }
 
@@ -229,7 +239,7 @@ section.features-section li .Legendary-cta:hover {
     margin-top: 1.4em;
   }
   .navbar nav a {
-    color: #0400ff;
+    color: white;
     font-size: 1.1em;
     padding: .1em, 1em;
   }
@@ -246,7 +256,7 @@ section.features-section li .Legendary-cta:hover {
     margin-top: 1.1em;
   }
   .navbar nav a {
-    color: #0400ff;
+    color: white;
     font-size: 1.4em;
     padding: .1em, 1em;
   }
@@ -279,7 +289,7 @@ section.features-section li .Legendary-cta:hover {
     margin-top: .1em;
   }
   .navbar nav a {
-    color: #0400ff;
+    color: white;
     font-size: 2em;
     padding: .1em, 1em;
   }
