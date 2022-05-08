@@ -78,6 +78,7 @@ nav li a {
 }
 
 nav li a:hover {
+  color: #4c4c4c;
   font-weight: bold;
 }
 
@@ -170,7 +171,7 @@ section.features-section li .Random-cta {
   font-weight: bold;
   border-radius: 5em;
   padding: .6em 1.3em;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 section.features-section li .Random-cta:hover {
@@ -185,7 +186,7 @@ section.features-section li .Generation-cta {
   font-weight: bold;
   border-radius: 5em;
   padding: .6em 1.3em;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 section.features-section li .Generation-cta:hover {
@@ -200,7 +201,7 @@ section.features-section li .Legendary-cta {
   font-weight: bold;
   border-radius: 5em;
   padding: .6em 1.3em;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 section.features-section li .Legendary-cta:hover {
@@ -244,6 +245,7 @@ section.features-section li .Legendary-cta:hover {
     padding: .1em, 1em;
   }
   .navbar nav li.current a {
+    color: #4c4c4c;
     font-weight: bold;
   }
 }
