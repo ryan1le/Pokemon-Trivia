@@ -69,7 +69,11 @@ nav {
     }
 
     li {
-        
+
+        .gen-dropdown {
+            display: none;
+        }
+
         a {
             color: white;
             text-decoration: none;
@@ -244,6 +248,30 @@ section.features-section {
             font-size: 1.1em;
             padding: .1em, 1em;
         }
+
+        #gen-menu {
+            .gen-dropdown {
+                display: none;
+                position: absolute;
+                background-color: #F02323;
+                width: 17em;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                float: left;
+                z-index: 999;
+
+                a {
+                    text-align: left;
+                    padding: 0.3em 0.5em;
+                }
+            }
+
+            &:hover {
+                .gen-dropdown {
+                    display: block;
+                }
+            }
+        }
+
 
         li.current a {
             color: #4c4c4c;
