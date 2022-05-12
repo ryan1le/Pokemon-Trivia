@@ -86,6 +86,11 @@ nav li a:hover {
   font-weight: bold;
 }
 
+nav li.current a {
+  color: #4c4c4c;
+  font-weight: bold;
+}
+
 nav .mobile-exit {
   float: right;
   margin: .5em;

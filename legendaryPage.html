@@ -21,7 +21,7 @@
             /></a>
           </li>
           <li>
-            <a href="mainPage.html" <a class="logo-name" href=""
+            <a class="logo-name" href="mainPage.html"
               >Pokemon <span>Trivia</span></a
             >
           </li>
@@ -42,13 +42,35 @@
             alt="Close Navigation"
           />
           <ul class="primary-menu">
-            <li class="current"><a href="mainPage.html">Home</a></li>
+            <li><a href="mainPage.html">Home</a></li>
             <li><a href="randomPage.html">Random</a></li>
-            <li><a href="GenerationPage.html">Generation</a></li>
-            <li><a href="legendaryPage.html">Legendary</a></li>
+            <li id="gen-menu">
+              <a href="genSelect.html">Generation</a>
+              <div class="gen-dropdown">
+                <a href="GenerationPage.html">Generation 1</a>
+                <a href="GenerationPage.html">Generation 2</a>
+                <a href="GenerationPage.html">Generation 3</a>
+                <a href="genSelect.html">more...</a>
+              </div>
+            </li>
+            <li class="current"><a href="legendaryPage.html">Legendary</a></li>
           </ul>
         </nav>
       </div>
     </div>
+
+    <script>
+      const mobileBtn = document.getElementById("mobile-cta"),
+        nav = document.querySelector("nav"),
+        mobileExit = document.getElementById("mobile-exit-btn");
+
+      mobileBtn.addEventListener("click", () => {
+        nav.classList.add("mobile-menu");
+      });
+
+      mobileExit.addEventListener("click", () => {
+        nav.classList.remove("mobile-menu");
+      });
+    </script>
   </body>
 </html>

@@ -69,7 +69,11 @@ nav {
     }
 
     li {
-        
+
+        .gen-dropdown {
+            display: none;
+        }
+
         a {
             color: white;
             text-decoration: none;
@@ -83,6 +87,11 @@ nav {
                 font-weight: bold;
             }
         }
+    }
+
+    li.current a {
+        color: #4c4c4c;
+        font-weight: bold;
     }
 
     .mobile-exit {

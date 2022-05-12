@@ -68,6 +68,10 @@ nav .primary-menu {
   margin-top: 5em;
 }
 
+nav li .gen-dropdown {
+  display: none;
+}
+
 nav li a {
   color: white;
   text-decoration: none;
@@ -78,6 +82,11 @@ nav li a {
 }
 
 nav li a:hover {
+  color: #4c4c4c;
+  font-weight: bold;
+}
+
+nav li.current a {
   color: #4c4c4c;
   font-weight: bold;
 }
