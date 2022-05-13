@@ -86,7 +86,7 @@ nav li a:hover {
   font-weight: bold;
 }
 
-nav li.current a {
+nav .current {
   color: #4c4c4c;
   font-weight: bold;
 }

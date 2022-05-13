@@ -113,6 +113,8 @@ section {
 }
 
 section.welcome{
+    text-align: center;
+
     .welcome-img {
         display: none;
     }
@@ -120,7 +122,6 @@ section.welcome{
         width: 90%;
         margin-top: 3em;
     }
-    text-align: center;
 
     .left-col {
         .subhead {
@@ -175,37 +176,7 @@ section.features-section {
 
         }
         
-        .Random-cta {
-            color: white;
-            text-decoration: none;
-            border: 3px solid white;
-            font-weight: bold;
-            border-radius: 5em;
-            padding: .6em 1.3em;
-            font-size: 1.3em;
-            
-            &:hover {
-                background: white;
-                color: #F02323;
-            }
-        }
-
-        .Generation-cta {
-            color: white;
-            text-decoration: none;
-            border: 3px solid white;
-            font-weight: bold;
-            border-radius: 5em;
-            padding: .6em 1.3em;
-            font-size: 1.3em;
-
-            &:hover {
-                background: white;
-                color: #F02323;
-            }
-        }
-
-        .Legendary-cta {
+        a {
             color: white;
             text-decoration: none;
             border: 3px solid white;
@@ -260,7 +231,6 @@ section.features-section {
                 display: none;
                 position: absolute;
                 background-color: #F02323;
-                width: 17em;
                 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
                 float: left;
                 z-index: 999;

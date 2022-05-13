@@ -173,7 +173,7 @@ section.features-section li img {
   margin-top: -5.5em;
 }
 
-section.features-section li .Random-cta {
+section.features-section li a {
   color: white;
   text-decoration: none;
   border: 3px solid white;
@@ -183,37 +183,7 @@ section.features-section li .Random-cta {
   font-size: 1.3em;
 }
 
-section.features-section li .Random-cta:hover {
-  background: white;
-  color: #F02323;
-}
-
-section.features-section li .Generation-cta {
-  color: white;
-  text-decoration: none;
-  border: 3px solid white;
-  font-weight: bold;
-  border-radius: 5em;
-  padding: .6em 1.3em;
-  font-size: 1.3em;
-}
-
-section.features-section li .Generation-cta:hover {
-  background: white;
-  color: #F02323;
-}
-
-section.features-section li .Legendary-cta {
-  color: white;
-  text-decoration: none;
-  border: 3px solid white;
-  font-weight: bold;
-  border-radius: 5em;
-  padding: .6em 1.3em;
-  font-size: 1.3em;
-}
-
-section.features-section li .Legendary-cta:hover {
+section.features-section li a:hover {
   background: white;
   color: #F02323;
 }
@@ -257,7 +227,6 @@ section.features-section li .Legendary-cta:hover {
     display: none;
     position: absolute;
     background-color: #F02323;
-    width: 17em;
     -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
             box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     float: left;
