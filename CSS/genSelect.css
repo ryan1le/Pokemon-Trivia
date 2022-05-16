@@ -202,7 +202,7 @@ section.gen-select-section li a:hover {
   .navbar nav #gen-menu:hover .gen-dropdown {
     display: block;
   }
-  .navbar nav .current {
+  .navbar nav li a.current {
     color: #4c4c4c;
     font-weight: bold;
   }
